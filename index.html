@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading"><span class="hero-heading">Cash</span> Register manager </h1>
+        <p class="discription">Enter the bill amount and cash given by the customer and know mimimum number of notes to
+            return.</p>
+        <div class="bill-amount-container"> <label for="bill-amount" class="lable">Bill Amount : </label><br>
+            <input type="number" id="bill-amount">
+        </div><button id="bill-amount-btn">Next</button>
+        <div class="cash-given-container"><label for="cash-given" class="lable">Cash Given :</label><br>
+            <input type="number" id="cash-given">
+        </div>
+        <button id="check-btn">Check</button>
+        <p id="error-message"></p>
+        <p id="return-change-caption" class="return-div">Return Change: <span id="return-change-display-div"
+            class="return-div"></span> </p>
+        <table class="change-table">
+            <tr>
+                <th class="th-tr-class">No. of Notes</th>
+                <td class="th-tr-class">2000</td>
+                <td class="th-tr-class">500</td>
+                <td class="th-tr-class">100</td>
+                <td class="th-tr-class">50</td>
+                <td class="th-tr-class">10</td>
+                <td class="th-tr-class">5</td>
+                <td class="th-tr-class">1</td>
+            </tr>
+
+            <tr>
+                <th class="th-tr-class">Note</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>

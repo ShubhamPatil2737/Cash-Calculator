@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#607d8b;
+}
+
+body{
+    background-color: white;
+
+}
+.container{
+    max-width: 50%;
+    text-align: center;
+    padding: 5rem;
+    margin: auto;
+   
+}
+
+.hero-heading{
+    color: var(--primary-color);
+}
+.heading{
+    padding: 2rem;
+}
+
+.discription{
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.lable{
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+#bill-amount-btn{
+    width: 10%;
+    padding: 0.8em;
+    margin: 1em;
+    background-color: white;
+    color: var(--primary-color);
+    border:1px solid;
+    border-radius: 0.25rem;
+    border-color: var(--primary-color);
+}
+#error-message{
+    display: block;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+    color: red;
+
+}
+#check-btn{
+    width: 10%;
+    padding: 0.8em;
+    margin: 0.75em;
+    background-color: white;
+    color: var(--primary-color);
+    border:1px solid;
+    border-radius: 0.25rem;
+    border-color: var(--primary-color);
+}
+.return-div{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    max-width: 100%;
+    margin: auto;
+    padding-left: 7rem;
+    margin-bottom: 1rem;
+}
+.th-tr-class{
+    background-color: var(--primary-color);
+}
+td,th{
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+#bill-amount-btn:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: white;
+}
+
+
+#check-btn:hover {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: white;
+}
+input{
+    width: 40%;
+    height: 5vh;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+    padding-left: 0.5rem;
+}
